@@ -1,10 +1,11 @@
 {
   "name": "vue",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.1",
+  "private": "false",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "prepublishOnly": "TypeScriptESBuild Source/**/*.ts"
   },
   "dependencies": {
     "querystring": "0.2.0",
@@ -12,11 +13,30 @@
   },
   "devDependencies": {
     "@vue/cli-service": "5.0.8",
-    "vue-template-compiler": "2.7.15"
+    "vue-template-compiler": "2.7.15",
+    "typescript-esbuild": "0.3.1"
   },
   "browserslist": [
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ]
+  ],
+  "homepage": "https://github.com/CodeEditorLand/CodeEditorLand#readme",
+  "bugs": {
+    "url": "https://github.com/CodeEditorLand/CodeEditorLand/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeEditorLand/CodeEditorLand.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "author": {
+    "name": "Nikola Hristov",
+    "email": "nikola@nikolahristov.tech",
+    "url": "https://nikolahristov.tech"
+  }
 }
