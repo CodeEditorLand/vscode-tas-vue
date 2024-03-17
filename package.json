@@ -1,22 +1,22 @@
 {
-  "name": "vue",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "build": "vue-cli-service build",
-    "serve": "vue-cli-service serve"
-  },
   "browserslist": [
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
   ],
   "dependencies": {
-    "querystring": "^0.2.0",
-    "vue": "^2.5.16"
+    "querystring": "0.2.0",
+    "vue": "2.5.16"
   },
   "devDependencies": {
-    "@vue/cli-service": "^3.0.0-beta.15",
-    "vue-template-compiler": "^2.5.16"
-  }
+    "@vue/cli-service": "3.0.0-beta.15",
+    "vue-template-compiler": "2.5.16"
+  },
+  "name": "vue",
+  "private": true,
+  "scripts": {
+    "build": "vue-cli-service build",
+    "serve": "vue-cli-service serve"
+  },
+  "version": "0.1.0"
 }
