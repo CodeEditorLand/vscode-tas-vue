@@ -33,7 +33,7 @@
 	},
 	"devDependencies": {
 		"@vue/cli-service": "5.0.8",
-		"typescript-esbuild": "latest",
+		"typescript-esbuild": "0.4.5",
 		"vue-template-compiler": "2.7.16"
 	},
 	"publishConfig": {
