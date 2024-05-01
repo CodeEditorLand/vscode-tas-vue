@@ -32,7 +32,7 @@
 		"not ie <= 8"
 	],
 	"dependencies": {
-		"querystring": "^0.2.0"
+		"querystring": "0.2.0"
 	},
 	"devDependencies": {
 		"@playform/build": "0.0.7",
