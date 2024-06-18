@@ -7,12 +7,12 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
-    "querystring": "^0.2.0",
-    "vue": "^2.5.16"
+    "querystring": "0.2.0",
+    "vue": "3.4.29"
   },
   "devDependencies": {
-    "@vue/cli-service": "^5.0.8",
-    "vue-template-compiler": "^2.5.16"
+    "@vue/cli-service": "5.0.8",
+    "vue-template-compiler": "2.7.16"
   },
   "browserslist": [
     "> 1%",
