@@ -1,4 +1,9 @@
 {
+	"name": "vue",
+	"scripts": {
+		"build": "vue-cli-service build",
+		"serve": "vue-cli-service serve"
+	},
 	"browserslist": [
 		"> 1%",
 		"last 2 versions",
@@ -7,10 +12,5 @@
 	"dependencies": {
 		"querystring": "0.2.0"
 	},
-	"devDependencies": {},
-	"name": "vue",
-	"scripts": {
-		"build": "vue-cli-service build",
-		"serve": "vue-cli-service serve"
-	}
+	"devDependencies": {}
 }
